@@ -1,0 +1,233 @@
+body{
+    margin: 10vh 30vw;
+    color: rgba(0,0,0,0.8);
+    font-family: 'Source Serif 4', serif;
+    overflow-x: hidden;
+}
+html {
+    scroll-behavior: smooth;
+}
+header{
+    padding: 15vh 0px 0px 0px;
+}
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #242424;
+}
+p{
+    color: #242424;
+    font-weight:400;
+    font-size: 20px;
+    line-height: 32px;
+}
+h1{
+    font-size: 82px;
+    line-height: 100%;
+    font-weight: 800;
+
+    margin-bottom: 0px;
+}
+h2{
+    color: #6B6B6B;
+    font-size: 12px;
+    line-height: 18px; 
+    font-weight: 400;
+
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+h3{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 800;
+
+    margin-top: 60px;
+}
+a{
+    color: #242424;
+}
+ol{
+    column-count: 1;
+    column-gap: 40px;
+}
+li{
+    font-weight:400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #242424;
+}
+sup {
+    color: #000;
+    line-height: 0px;
+}
+img{
+    cursor: grab;
+}
+img:active{
+    cursor: grabbing;
+}
+.drag{
+    position: absolute;
+    width: auto;
+    z-index: 9;
+}
+
+/*--------------TOP NAV--------------*/
+
+.topnav {
+    overflow: hidden;
+    top: calc(25vh + 54.9px);
+    position: fixed;
+    right: 5vw;
+    text-align: right;
+}
+  
+.topnav a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+
+    color: #6B6B6B;
+    font-size: 12px;
+    line-height: 18px; 
+    font-weight: 400;
+
+    text-transform: uppercase;
+}
+
+/*------------BACK TO TOP------------*/
+  
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #444444; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 14.5px; /* Some padding */
+    border-radius: 999px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+
+    height: 50px;
+    width: 50px;
+  }
+  
+  #myBtn:hover {
+    background-color: #242424; /* Add a dark-grey background on hover */
+  }
+  
+
+/*----------IMAGE PLACEMENT----------*/
+
+#headphones{
+    rotate: 30deg;
+    top: 4vh;
+    left: 10vw;
+    height: 40vw;
+}
+#postit1, #postit2, #postit3{
+    rotate: 15deg;
+    height: 15vw;
+}
+#postit2{
+    top: 57vh;
+    right: 20vw;
+}
+#postit3{
+    top: 64vh;
+    right: 21vw;
+}
+#postit1{
+    top: 62vh;
+    right: 16vw;
+}
+#wallet {
+    rotate: 30deg;
+    top: 200vh;
+    right: 25vw;
+    height: 20vw;
+}
+#phone{
+    rotate: -26deg;
+    top: 120vh;
+    left: 25vw;
+    height: 30vw;
+}
+#boy{
+    rotate: 26deg;
+    top: 260vh;
+    left: 32vw;
+    height: 14vw;
+}
+#girl{
+    rotate: 0deg;
+    top: 240vh;
+    left: 25vw;
+    height: 14vw;
+}
+#p20 {
+    top: 395vh;
+    right: 25vw;
+    height: 6vw;
+}
+#p50 {
+    top: 412vh;
+    right: 29vw;
+    height: 8vw;
+}
+#pound {
+    top: 402vh;
+    right: 37vw;
+    height: 7vw;
+}
+#hat {
+    top: 572vh;
+    right: 37vw;
+    height: 45vw;
+}
+#memorystick {
+    top: 650vh;
+    left: 37vw;
+    height: 14vw;
+}
+#glasses {
+    rotate: 24deg;
+    top: 880vh;
+    left: 37vw;
+    height: 18vw;
+}
+#soundcore {
+    rotate: -23deg;
+    top: 960vh;
+    left: 27vw;
+    height: 12vw;
+}
+#watch {
+    rotate: 34deg;
+    top: 1040vh;
+    right: 27vw;
+    height: 50vw;
+}
+#headphones2 {
+    rotate: 30deg;
+    top: 1200vh;
+    left: 13vw;
+    height: 50vw;
+}
+#pocket {
+    rotate: -40deg;
+    top: 700vh;
+    left: 40vw;
+    height: 45vw;
+}
+#note {
+    rotate: 34deg;
+    top: 1040vh;
+    right: 22vw;
+    height: 50vw;
+}
+
+
